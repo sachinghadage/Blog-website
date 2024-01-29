@@ -1,0 +1,327 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #ff4d4d;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 0;
+    /* background-color: #f2f2f2; */
+}
+
+.banner2 {
+    position: relative; /* Make the container positioned relative for absolute positioning of its children */
+    text-align: center; /* Centers the content horizontally */
+    color: #fff; /* Text color */
+}
+
+.banner2 {
+    position: relative; /* Make the container positioned relative for absolute positioning of its children */
+    text-align: center; /* Centers the content horizontally */
+    color: #fff; /* Text color */
+}
+
+.banner2 img {
+    width: 100%; /* Make sure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.banner-content {
+    position: absolute; /* Position the content absolutely over the image */
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-50%, -50%); /* Center the content horizontally and vertically */
+}
+
+.banner-content h1 {
+    font-size: 2.5em; /* Adjust the font size as needed */
+}
+
+.banner-content p {
+    font-size: 1.2em; /* Adjust the font size as needed */
+}
+
+
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-heading,
+.sub-title {
+    flex: 0 0 40%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.title-heading {
+    flex: 0 0 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.content p {
+    max-width: 100%; /* Limit paragraph width to image width */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    padding: 0 20px; /* Add padding to prevent text from sticking to the edges */
+    text-align: justify;
+}
+.flex-elementposts{
+    background-color: azure;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+    
+}
+h4{
+    margin-left: 2%;
+    margin-top: 2%;
+   
+}
+
+
+.box-elementlist1{
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-color: rgb(226, 233, 244);
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+    list-style: none;
+        
+}
+.box-elementlist1:hover{
+    background-color: rgb(207, 225, 248);
+}
+
+.box-elementlist1 img{
+    align-self: center;
+    width: 5%;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 0.5%;
+     
+}
+
+.lorem{
+    margin-left: 2%;
+}
+
+.lorem, .box-elementlist1 img {
+    display: inline-block;
+
+}
+
+
+.flex-elementtag{
+    background-color: azure;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 3%;
+    box-shadow: 0 0 10px rgba(13, 3, 21, 0.2);
+}
+
+/* .box-elementtag1{
+    background-color: black;
+    margin-left: 2%;
+    width: 9%;
+    height: 9%;
+    font-size:auto;
+    text-align: center;
+    color: white;
+} */
+
+.box-elementtag2{
+
+    margin-left: 2%;
+    width: 9%;
+    height: 9%;
+    font-size:auto;
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+
+/* .box-elementtag1, */
+.box-elementtag2{
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+
+.subscribe-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #subscribe-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e60000;
+  }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .title-heading,
+    .sub-title {
+        flex-basis: 100%;
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .banner2 {
+        padding: 80px 0; /* Adjust the padding for smaller screens */
+    }
+
+    .banner-content {
+        padding: 0 20px; /* Add some padding to the sides for smaller screens */
+    }
+
+    .banner-content h1 {
+        font-size: 2em; /* Adjust the font size for smaller screens */
+    }
+
+    .banner-content p {
+        font-size: 1em; /* Adjust the font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box-elementtag2{
+    background-color: rgb(229, 229, 229);
+    margin-left: 2%;
+    width: 30%;
+    height: 9%;
+    font-size: initial;
+    text-align: center;
+    color: black;
+    POSITION: relative;}
+   
+  }
+
+
+
+
